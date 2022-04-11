@@ -22,7 +22,7 @@
 <body>
 
     <!-------------------- Scroll-Top Area (Start) -------------------->
-    <a href="#home" class="scroll-top">
+    <a href="#home21" class="scroll-top">
         <i class="fas fa-arrow-up"></i>
     </a>
     <!-------------------- Scroll-Top Area (End) -------------------->
@@ -51,9 +51,9 @@
             <!-- Icons -->
             <div class="icon-container">
                 <div id="search-btn" class="icon fas fa-search"></div>
-                <a href="pages/Account/Login.html" id="login" class="icon fas fa-user"></a>
-                <a href="pages/Pages/Wishlist.html" id="wishlist" class="icon fas fa-heart"></a>
-                <a href="pages/Pages/Cart.html" id="cart" class="icon fas fa-shopping-cart"></a>
+                <a href="#" id="login" class="icon fas fa-user"></a>
+                <a href="#" id="wishlist" class="icon fas fa-heart"></a>
+                <a href="#" id="cart" class="icon fas fa-shopping-cart"></a>
             </div>
 
         </div>
@@ -68,14 +68,17 @@
             <div class="category-dropdown">
                 <button>categories <i class="fas fa-angle-down"></i> </button>
                 <div class="category-content">
-                    <a href="pages/Shop/Shop%20Grid.html">fruits</a>
-                    <a href="pages/Shop/Shop%20Grid.html">Beauty Product</a>
-                    <a href="pages/Shop/Shop%20Grid.html">drinks</a>
-                    <a href="pages/Shop/Shop%20Grid.html">bakery</a>
-                    <a href="pages/Shop/Shop%20Grid.html">Patanjali Product</a>
-                    <a href="pages/Shop/Shop%20Grid.html">dry fruits</a>
-                    <a href="pages/Shop/Shop%20Grid.html">Amul Product</a>
-                    <a href="pages/Shop/Shop%20Grid.html">All Balaji Product</a>
+                    <a href="beauty.html">Beauty Product</a>
+                    
+                    <a href="beauty.html">drinks</a>
+                    <a href="#">bakery</a>
+                    <a href="#">Patanjali Product</a>
+                    <a href="#">dry fruits</a>
+                    <a href="#">Amul Product</a>
+                    <a href="#">Balaji Product</a>
+                    
+                    <a href="#">Oils</a>
+                    <a href="#">Perssonal Care</a>
                 </div>
             </div>
 
@@ -83,15 +86,13 @@
             <nav class="navbar">
 
                 <a class="nav-btn" href="index.html">home</a>
-                <div class="dropdown-menu">
-                    <button class="nav-btn">About us </button>
-
-                </div>
+                <a class="nav-btn" href="#">About Us</a>
+                
 
                 <div class="dropdown-menu">
                     <button class="nav-btn">shop <i class="fas fa-angle-down"></i> </button>
                     <div class="dropdown-content">
-                        <a href="pages/Shop/Shop%20Grid.html">shop grid</a>
+                        <a href="#">shop grid</a>
 
                         <a href="#">product details</a>
                     </div>
@@ -99,12 +100,12 @@
                 <div class="dropdown-menu">
                     <button class="nav-btn">account <i class="fas fa-angle-down"></i> </button>
                     <div class="dropdown-content">
-                        <a href="pages/Account/Login.html">login</a>
-                        <a href="pages/Account/Register.html">register</a>
+                        <a href="#">login</a>
+                        <a href="#">register</a>
 
                     </div>
                 </div>
-                <a class="nav-btn" href="pages/Contact/contact.html">contact</a>
+                <a class="nav-btn" href="contact.html">contact</a>
             </nav>
 
             <div id="menu-btn" class="icon fas fa-bars"></div>
@@ -139,7 +140,7 @@
                         <button class="nav-btn"><span>shop</span> <i class="fas fa-plus"></i> </button>
                     </div>
                     <p class="sub-nav-link">
-                        <a href="pages/Shop/Shop%20Grid.html">shop grid</a>
+                        <a href="#">shop grid</a>
                        
                         <a href="#">product details</a>
                     </p>
@@ -150,14 +151,14 @@
                         <button class="nav-btn"><span>account</span> <i class="fas fa-plus"></i> </button>
                     </div>
                     <p class="sub-nav-link">
-                        <a href="pages/Account/Login.html">login</a>
-                        <a href="pages/Account/Register.html">register</a>
+                        <a href="#">login</a>
+                        <a href="#">register</a>
                         
                     </p>
                 </div>
 
                 <div class="nav-link">
-                    <a class="nav-btn" href="pages/Contact/contact.html">contact</a>
+                    <a class="nav-btn" href="contact.html">contact</a>
                 </div>
 
             </nav>
@@ -166,9 +167,6 @@
         <!----- Mobile Menu Area (Ends) ----->
 
     </header>
-
-    <!-------------------- Header Area (End) -------------------->
-
 
         
     <!-------------------- Page-Title (Start) -------------------->
@@ -191,7 +189,7 @@
                 <div class="info-item">
                     <i class="fas fa-phone"></i>
                     <h3>phone</h3>
-                    <p>7275867022</p>
+                    
                     <p>9335622160</p>
                 </div>
 
@@ -249,8 +247,25 @@
 
 
 
-     <!-------------------- Footer Area (Start) -------------------->
-     <footer class="footer">
+     <!-------------------- Newsletter Area (Start) -------------------->
+    <section class="newsletter">
+        <form method="post" class="content" id="newsletter-form">
+            <h2>newsletter</h2>
+            <div class="input-box">
+                <input type="email" name="email" id="email" class="email" placeholder="enter your email" required />
+                <button type="submit" name="subscribe" id="subscribe" class="btn">subscribe</button>
+            </div>
+            <span class="alert" id="msg"></span>
+        </form>
+    </section>
+    <!-------------------- Newsletter Area (End) -------------------->
+
+    <a class="whats-app" href="https://api.whatsapp.com/send?phone=9335622160&amp;text=Hello%20Wit%20Shop" target="_blank">
+        <img src="assets/images/wp.gif" alt="">
+      </a>
+
+    <!-------------------- Footer Area (Start) -------------------->
+    <footer class="footer">
 
         <div class="box-container">
 
@@ -266,7 +281,7 @@
             <div class="footer-item">
                 <h2>contact info</h2>
                 <div class="info">
-                    <p><i class="fas fa-phone"></i><span>7275867022</span></p>
+                    <p><i class="fas fa-phone"></i><span>9335622160</span></p>
                     <p><i class="fas fa-envelope"></i><span class="gmail">abc@gmail.com</span></p>
                     <p><i class="fas fa-map-marker-alt"></i><span>Ballia UP India</span></p>
                 </div>
@@ -281,11 +296,11 @@
             <div class="footer-item">
                 <h2>quick links</h2>
                 <div class="info">
-                    <a href="pages/Pages/about.html"><i class="fas fa-arrow-right"></i>about us</a>
-                    <a href="pages/Contact/contact.html"><i class="fas fa-arrow-right"></i>contact us</a>
-                    <a href="pages/Account/Login.html"><i class="fas fa-arrow-right"></i>login</a>
-                    <a href="pages/Account/Register.html"><i class="fas fa-arrow-right"></i>register</a>
-                    <a href="pages/Pages/Faqs.html"><i class="fas fa-arrow-right"></i>faq</a>
+                    <a href="#"><i class="fas fa-arrow-right"></i>about us</a>
+                    <a href="#"><i class="fas fa-arrow-right"></i>contact us</a>
+                    <a href="#"><i class="fas fa-arrow-right"></i>login</a>
+                    <a href="#"><i class="fas fa-arrow-right"></i>register</a>
+                    <a href="index.html"><i class="fas fa-arrow-right"></i>Home</a>
 
                 </div>
             </div>
@@ -310,43 +325,51 @@
         </div>
     </footer>
 
-
     <!-------------------- Footer Area (End) -------------------->
+
 
 
 
     <!-- Jquery -->
     <script src="assets/vendors/jquery/jquery-3.6.0.js"></script>
 
+    <!-- Swiper (JS) -->
+    <script src="assets/vendors/swiper/swiper.js"></script>
+
     <!-- Custom Script Files -->
     <script src="assets/js/script.js"></script>
     <script src="assets/js/nav-link-toggler.js"></script>
+    <script src="assets/js/home-slider.js"></script>
+    <script src="assets/js/category-slider.js"></script>
+    <script src="assets/js/gallery.js"></script>
+    <script src="assets/js/deal-counter.js"></script>
+
 
     <!---------------- Custom Script ---------------->
 
     <!-- Contact-Form Script -->
     <script>
-        jQuery('#contact-form').on('submit',function(e){
-          jQuery('#msg').html('');
-          jQuery('#submit').html('Please wait');
-          jQuery('#submit').attr('disabled',true);
-          jQuery.ajax({
-              url:'../../assets/php/Contact-Form/submit.php',
-              type:'post',
-              data:jQuery('#contact-form').serialize(),
-              success:function(result){
-                  jQuery('#msg').html(result);
-                  jQuery('#submit').html('Submit');
-                  jQuery('#submit').attr('disabled',false);
-                  jQuery('#contact-form')[0].reset();
-              }
-          });
-          e.preventDefault();
+        jQuery('#newsletter-form').on('submit', function (e) {
+            jQuery('#msg').html('');
+            jQuery('#subscribe').html('Please wait');
+            jQuery('#subscribe').attr('disabled', true);
+            jQuery.ajax({
+                url: 'assets/php/Newsletter/submit.php',
+                type: 'post',
+                data: jQuery('#newsletter-form').serialize(),
+                success: function (result) {
+                    jQuery('#msg').html(result);
+                    jQuery('#subscribe').html('Subscribe');
+                    jQuery('#subscribe').attr('disabled', false);
+                    jQuery('#newsletter-form')[0].reset();
+                }
+            });
+            e.preventDefault();
         });
     </script>
 
 
 </body>
 
-<!-- Mirrored from greenmart123.herokuapp.com/pages/Contact/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 04 Apr 2022 01:27:42 GMT -->
+
 </html>
